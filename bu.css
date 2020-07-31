@@ -1,0 +1,28 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Poppons', sans-serif;
+    background-image: linear-gradient(120deg, #E2A9F3, #F5DA81)
+}
+h1
+{
+  text-align: center;
+}
+.container
+{
+    position: absolute;
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 5px 5px;
+}
+div
+{
+  border-bottom: 2px solid gray;
+  width: 80%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
